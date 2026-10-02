@@ -156,8 +156,11 @@ export function validFilters(filters, projects) {
   return result;
 }
 
-// On day one no project has growth figures yet; rank by total stars instead of a wall of "н/д".
+// While the radar is young most projects have no growth figures; ranking the few that do
+// (e.g. one brand-new repo whose "growth" is all its stars) would crown an arbitrary leader.
+// Below half coverage, rank by total stars instead of a wall of "н/д".
 export function effectiveMetric(projects, key) {
-  if (key === "stars" || !projects.length || projects.some((p) => p[key] != null)) return key;
-  return "stars";
+  if (key === "stars" || !projects.length) return key;
+  const known = projects.filter((p) => p[key] != null).length;
+  return known >= Math.ceil(projects.length / 2) ? key : "stars";
 }

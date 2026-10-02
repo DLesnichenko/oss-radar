@@ -37,6 +37,13 @@ test("weeklyTotals is null when fewer than half of the projects have data for th
   assert.deepEqual(weeklyTotals(enough, ["w"]), [{ week: "w", gain: 15 }]);
 });
 
+test("effectiveMetric falls back to stars when fewer than half of the projects have a value", () => {
+  const mostlyUnknown = [p({ growth30: 4956 }), ...Array.from({ length: 9 }, () => p({ growth30: null }))];
+  assert.equal(effectiveMetric(mostlyUnknown, "growth30"), "stars", "one young repo must not top a ranking of unknowns");
+  const half = [p({ growth30: 1 }), p({ growth30: null })];
+  assert.equal(effectiveMetric(half, "growth30"), "growth30");
+});
+
 test("effectiveMetric falls back to stars when no project has a value for the metric", () => {
   const empty = [p({ growth30: null }), p({ growth30: null })];
   assert.equal(effectiveMetric(empty, "growth30"), "stars");
