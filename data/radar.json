@@ -1,0 +1,7119 @@
+{
+ "generated": "2026-10-02T20:44:57Z",
+ "dates": [
+  "2026-09-27",
+  "2026-09-26",
+  "2026-09-25",
+  "2026-09-24",
+  "2026-09-23",
+  "2026-09-22",
+  "2026-09-21",
+  "2026-09-20",
+  "2026-09-19",
+  "2026-09-18",
+  "2026-09-17",
+  "2026-09-16",
+  "2026-09-15",
+  "2026-09-14",
+  "2026-09-13",
+  "2026-09-12",
+  "2026-09-11",
+  "2026-09-10",
+  "2026-09-09",
+  "2026-09-08",
+  "2026-09-07",
+  "2026-09-06",
+  "2026-09-05",
+  "2026-09-04",
+  "2026-09-03",
+  "2026-09-02",
+  "2026-09-01",
+  "2026-08-31",
+  "2026-08-30",
+  "2026-08-29",
+  "2026-08-28",
+  "2026-08-27",
+  "2026-08-26",
+  "2026-08-25",
+  "2026-08-24",
+  "2026-08-23",
+  "2026-08-22",
+  "2026-08-21",
+  "2026-08-20",
+  "2026-08-19",
+  "2026-08-18",
+  "2026-08-17",
+  "2026-08-16",
+  "2026-08-15",
+  "2026-08-14",
+  "2026-08-13",
+  "2026-08-12",
+  "2026-08-11",
+  "2026-08-10",
+  "2026-08-09",
+  "2026-08-08",
+  "2026-08-07",
+  "2026-08-06",
+  "2026-08-05",
+  "2026-08-04",
+  "2026-08-03",
+  "2026-08-02",
+  "2026-08-01",
+  "2026-07-31",
+  "2026-07-30",
+  "2026-07-29",
+  "2026-07-28",
+  "2026-07-27",
+  "2026-07-26",
+  "2026-07-25",
+  "2026-07-24",
+  "2026-07-23",
+  "2026-07-22",
+  "2026-07-21",
+  "2026-07-20",
+  "2026-07-19",
+  "2026-07-18",
+  "2026-07-17",
+  "2026-07-16",
+  "2026-07-15",
+  "2026-07-14",
+  "2026-07-13",
+  "2026-07-12",
+  "2026-07-11",
+  "2026-07-10",
+  "2026-07-09",
+  "2026-07-08",
+  "2026-07-07",
+  "2026-07-06",
+  "2026-07-05",
+  "2026-07-04",
+  "2026-07-03",
+  "2026-07-02",
+  "2026-07-01",
+  "2026-06-30",
+  "2026-06-29",
+  "2026-06-28",
+  "2026-06-27",
+  "2026-06-26",
+  "2026-06-25",
+  "2026-06-24",
+  "2026-06-23",
+  "2026-06-22",
+  "2026-06-21",
+  "2026-06-20"
+ ],
+ "by_date": {
+  "2026-09-27": {
+   "window": {
+    "from": "2026-06-29",
+    "to": "2026-09-27"
+   },
+   "weeks": [
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6590,
+     "growth7": 210,
+     "growth30": 900,
+     "growth90": 1500,
+     "acceleration": 3.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      110,
+      210,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1495,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 10,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 1000,
+     "growth7": 700,
+     "growth30": 1000,
+     "growth90": 1000,
+     "acceleration": null,
+     "active_days": 9,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      300,
+      700
+     ]
+    }
+   ]
+  },
+  "2026-09-26": {
+   "window": {
+    "from": "2026-06-28",
+    "to": "2026-09-26"
+   },
+   "weeks": [
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19",
+    "2026-09-26"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6560,
+     "growth7": 210,
+     "growth30": 880,
+     "growth90": 1480,
+     "acceleration": 2.93,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      90,
+      210,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1490,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 9,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 900,
+     "growth7": 700,
+     "growth30": 900,
+     "growth90": 900,
+     "acceleration": null,
+     "active_days": 8,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      700
+     ]
+    }
+   ]
+  },
+  "2026-09-25": {
+   "window": {
+    "from": "2026-06-27",
+    "to": "2026-09-25"
+   },
+   "weeks": [
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14",
+    "2026-08-21",
+    "2026-08-28",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-25"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6530,
+     "growth7": 210,
+     "growth30": 860,
+     "growth90": 1460,
+     "acceleration": 2.87,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      210,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1485,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 8,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 800,
+     "growth7": 700,
+     "growth30": 800,
+     "growth90": 800,
+     "acceleration": null,
+     "active_days": 7,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      700
+     ]
+    }
+   ]
+  },
+  "2026-09-24": {
+   "window": {
+    "from": "2026-06-26",
+    "to": "2026-09-24"
+   },
+   "weeks": [
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06",
+    "2026-08-13",
+    "2026-08-20",
+    "2026-08-27",
+    "2026-09-03",
+    "2026-09-10",
+    "2026-09-17",
+    "2026-09-24"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6500,
+     "growth7": 210,
+     "growth30": 840,
+     "growth90": 1440,
+     "acceleration": 2.8,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      190,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1480,
+     "growth7": null,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 7,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      20,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 700,
+     "growth7": null,
+     "growth30": 700,
+     "growth90": 700,
+     "acceleration": null,
+     "active_days": 6,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "2026-09-23": {
+   "window": {
+    "from": "2026-06-25",
+    "to": "2026-09-23"
+   },
+   "weeks": [
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05",
+    "2026-08-12",
+    "2026-08-19",
+    "2026-08-26",
+    "2026-09-02",
+    "2026-09-09",
+    "2026-09-16",
+    "2026-09-23"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6470,
+     "growth7": 210,
+     "growth30": 820,
+     "growth90": 1420,
+     "acceleration": 2.73,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      170,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1475,
+     "growth7": null,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 6,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      25,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 600,
+     "growth7": 600,
+     "growth30": 600,
+     "growth90": 600,
+     "acceleration": null,
+     "active_days": 5,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      600
+     ]
+    }
+   ]
+  },
+  "2026-09-22": {
+   "window": {
+    "from": "2026-06-24",
+    "to": "2026-09-22"
+   },
+   "weeks": [
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04",
+    "2026-08-11",
+    "2026-08-18",
+    "2026-08-25",
+    "2026-09-01",
+    "2026-09-08",
+    "2026-09-15",
+    "2026-09-22"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6440,
+     "growth7": 210,
+     "growth30": 800,
+     "growth90": 1400,
+     "acceleration": 2.67,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      150,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1470,
+     "growth7": null,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 5,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      30,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 500,
+     "growth7": 500,
+     "growth30": 500,
+     "growth90": 500,
+     "acceleration": null,
+     "active_days": 4,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      500
+     ]
+    }
+   ]
+  },
+  "2026-09-21": {
+   "window": {
+    "from": "2026-06-23",
+    "to": "2026-09-21"
+   },
+   "weeks": [
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10",
+    "2026-08-17",
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-07",
+    "2026-09-14",
+    "2026-09-21"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6410,
+     "growth7": 210,
+     "growth30": 780,
+     "growth90": 1380,
+     "acceleration": 2.6,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      130,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1465,
+     "growth7": null,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 4,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 400,
+     "growth7": 400,
+     "growth30": 400,
+     "growth90": 400,
+     "acceleration": null,
+     "active_days": 3,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      400
+     ]
+    }
+   ]
+  },
+  "2026-09-20": {
+   "window": {
+    "from": "2026-06-22",
+    "to": "2026-09-20"
+   },
+   "weeks": [
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6380,
+     "growth7": 210,
+     "growth30": 760,
+     "growth90": 1360,
+     "acceleration": 2.53,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      110,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1460,
+     "growth7": null,
+     "growth30": null,
+     "growth90": 450,
+     "acceleration": null,
+     "active_days": 3,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 300,
+     "growth7": 300,
+     "growth30": 300,
+     "growth90": 300,
+     "acceleration": null,
+     "active_days": 2,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      300
+     ]
+    }
+   ]
+  },
+  "2026-09-19": {
+   "window": {
+    "from": "2026-06-21",
+    "to": "2026-09-19"
+   },
+   "weeks": [
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6350,
+     "growth7": 210,
+     "growth30": 740,
+     "growth90": 1340,
+     "acceleration": 2.47,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      90,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "устойчивый рост",
+     "purpose": "Security audit skill",
+     "stars": 1455,
+     "growth7": null,
+     "growth30": 165,
+     "growth90": 450,
+     "acceleration": 1.22,
+     "active_days": 2,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 200,
+     "growth7": 200,
+     "growth30": 200,
+     "growth90": 200,
+     "acceleration": null,
+     "active_days": 1,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      200
+     ]
+    }
+   ]
+  },
+  "2026-09-18": {
+   "window": {
+    "from": "2026-06-20",
+    "to": "2026-09-18"
+   },
+   "weeks": [
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14",
+    "2026-08-21",
+    "2026-08-28",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-18"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6320,
+     "growth7": 210,
+     "growth30": 720,
+     "growth90": 1320,
+     "acceleration": 2.4,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      210,
+      210,
+      210
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "устойчивый рост",
+     "purpose": "Security audit skill",
+     "stars": 1450,
+     "growth7": null,
+     "growth30": 160,
+     "growth90": 450,
+     "acceleration": 1.14,
+     "active_days": 1,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/young",
+     "url": "https://github.com/acme/young",
+     "language": "TypeScript",
+     "category": "Веб и инструменты",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Brand new agent <b>toolkit</b>",
+     "stars": 100,
+     "growth7": 100,
+     "growth30": 100,
+     "growth90": 100,
+     "acceleration": null,
+     "active_days": 0,
+     "first_seen": "2026-09-18",
+     "weekly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100
+     ]
+    }
+   ]
+  },
+  "2026-09-17": {
+   "window": {
+    "from": "2026-06-19",
+    "to": "2026-09-17"
+   },
+   "weeks": [
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06",
+    "2026-08-13",
+    "2026-08-20",
+    "2026-08-27",
+    "2026-09-03",
+    "2026-09-10",
+    "2026-09-17"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6290,
+     "growth7": 210,
+     "growth30": 700,
+     "growth90": null,
+     "acceleration": 2.33,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      190,
+      210,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-16": {
+   "window": {
+    "from": "2026-06-18",
+    "to": "2026-09-16"
+   },
+   "weeks": [
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05",
+    "2026-08-12",
+    "2026-08-19",
+    "2026-08-26",
+    "2026-09-02",
+    "2026-09-09",
+    "2026-09-16"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6260,
+     "growth7": 210,
+     "growth30": 680,
+     "growth90": null,
+     "acceleration": 2.27,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      170,
+      210,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-15": {
+   "window": {
+    "from": "2026-06-17",
+    "to": "2026-09-15"
+   },
+   "weeks": [
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04",
+    "2026-08-11",
+    "2026-08-18",
+    "2026-08-25",
+    "2026-09-01",
+    "2026-09-08",
+    "2026-09-15"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6230,
+     "growth7": 210,
+     "growth30": 660,
+     "growth90": null,
+     "acceleration": 2.2,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      150,
+      210,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-14": {
+   "window": {
+    "from": "2026-06-16",
+    "to": "2026-09-14"
+   },
+   "weeks": [
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10",
+    "2026-08-17",
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-07",
+    "2026-09-14"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6200,
+     "growth7": 210,
+     "growth30": 640,
+     "growth90": null,
+     "acceleration": 2.13,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      130,
+      210,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-13": {
+   "window": {
+    "from": "2026-06-15",
+    "to": "2026-09-13"
+   },
+   "weeks": [
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6170,
+     "growth7": 210,
+     "growth30": 620,
+     "growth90": null,
+     "acceleration": 2.07,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      110,
+      210,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-12": {
+   "window": {
+    "from": "2026-06-14",
+    "to": "2026-09-12"
+   },
+   "weeks": [
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6140,
+     "growth7": 210,
+     "growth30": 600,
+     "growth90": null,
+     "acceleration": 2.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      90,
+      210,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-11": {
+   "window": {
+    "from": "2026-06-13",
+    "to": "2026-09-11"
+   },
+   "weeks": [
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14",
+    "2026-08-21",
+    "2026-08-28",
+    "2026-09-04",
+    "2026-09-11"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6110,
+     "growth7": 210,
+     "growth30": 580,
+     "growth90": null,
+     "acceleration": 1.93,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      210,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-10": {
+   "window": {
+    "from": "2026-06-12",
+    "to": "2026-09-10"
+   },
+   "weeks": [
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06",
+    "2026-08-13",
+    "2026-08-20",
+    "2026-08-27",
+    "2026-09-03",
+    "2026-09-10"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6080,
+     "growth7": 210,
+     "growth30": 560,
+     "growth90": null,
+     "acceleration": 1.87,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      190,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-09": {
+   "window": {
+    "from": "2026-06-11",
+    "to": "2026-09-09"
+   },
+   "weeks": [
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05",
+    "2026-08-12",
+    "2026-08-19",
+    "2026-08-26",
+    "2026-09-02",
+    "2026-09-09"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6050,
+     "growth7": 210,
+     "growth30": 540,
+     "growth90": null,
+     "acceleration": 1.8,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      170,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-08": {
+   "window": {
+    "from": "2026-06-10",
+    "to": "2026-09-08"
+   },
+   "weeks": [
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04",
+    "2026-08-11",
+    "2026-08-18",
+    "2026-08-25",
+    "2026-09-01",
+    "2026-09-08"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 6020,
+     "growth7": 210,
+     "growth30": 520,
+     "growth90": null,
+     "acceleration": 1.73,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      150,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-07": {
+   "window": {
+    "from": "2026-06-09",
+    "to": "2026-09-07"
+   },
+   "weeks": [
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10",
+    "2026-08-17",
+    "2026-08-24",
+    "2026-08-31",
+    "2026-09-07"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5990,
+     "growth7": 210,
+     "growth30": 500,
+     "growth90": null,
+     "acceleration": 1.67,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      130,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-06": {
+   "window": {
+    "from": "2026-06-08",
+    "to": "2026-09-06"
+   },
+   "weeks": [
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5960,
+     "growth7": 210,
+     "growth30": 480,
+     "growth90": null,
+     "acceleration": 1.6,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      110,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-05": {
+   "window": {
+    "from": "2026-06-07",
+    "to": "2026-09-05"
+   },
+   "weeks": [
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29",
+    "2026-09-05"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5930,
+     "growth7": 210,
+     "growth30": 460,
+     "growth90": null,
+     "acceleration": 1.53,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      90,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-04": {
+   "window": {
+    "from": "2026-06-06",
+    "to": "2026-09-04"
+   },
+   "weeks": [
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14",
+    "2026-08-21",
+    "2026-08-28",
+    "2026-09-04"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5900,
+     "growth7": 210,
+     "growth30": 440,
+     "growth90": null,
+     "acceleration": 1.47,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      210
+     ]
+    }
+   ]
+  },
+  "2026-09-03": {
+   "window": {
+    "from": "2026-06-05",
+    "to": "2026-09-03"
+   },
+   "weeks": [
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06",
+    "2026-08-13",
+    "2026-08-20",
+    "2026-08-27",
+    "2026-09-03"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5870,
+     "growth7": 190,
+     "growth30": 420,
+     "growth90": null,
+     "acceleration": 1.4,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      190
+     ]
+    }
+   ]
+  },
+  "2026-09-02": {
+   "window": {
+    "from": "2026-06-04",
+    "to": "2026-09-02"
+   },
+   "weeks": [
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05",
+    "2026-08-12",
+    "2026-08-19",
+    "2026-08-26",
+    "2026-09-02"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5840,
+     "growth7": 170,
+     "growth30": 400,
+     "growth90": null,
+     "acceleration": 1.33,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      170
+     ]
+    }
+   ]
+  },
+  "2026-09-01": {
+   "window": {
+    "from": "2026-06-03",
+    "to": "2026-09-01"
+   },
+   "weeks": [
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04",
+    "2026-08-11",
+    "2026-08-18",
+    "2026-08-25",
+    "2026-09-01"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5810,
+     "growth7": 150,
+     "growth30": 380,
+     "growth90": null,
+     "acceleration": 1.27,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      150
+     ]
+    }
+   ]
+  },
+  "2026-08-31": {
+   "window": {
+    "from": "2026-06-02",
+    "to": "2026-08-31"
+   },
+   "weeks": [
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10",
+    "2026-08-17",
+    "2026-08-24",
+    "2026-08-31"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5780,
+     "growth7": 130,
+     "growth30": 360,
+     "growth90": null,
+     "acceleration": 1.2,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      130
+     ]
+    }
+   ]
+  },
+  "2026-08-30": {
+   "window": {
+    "from": "2026-06-01",
+    "to": "2026-08-30"
+   },
+   "weeks": [
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5750,
+     "growth7": 110,
+     "growth30": 340,
+     "growth90": null,
+     "acceleration": 1.13,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      110
+     ]
+    }
+   ]
+  },
+  "2026-08-29": {
+   "window": {
+    "from": "2026-05-31",
+    "to": "2026-08-29"
+   },
+   "weeks": [
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5720,
+     "growth7": 90,
+     "growth30": 320,
+     "growth90": null,
+     "acceleration": 1.07,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      90
+     ]
+    }
+   ]
+  },
+  "2026-08-28": {
+   "window": {
+    "from": "2026-05-30",
+    "to": "2026-08-28"
+   },
+   "weeks": [
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14",
+    "2026-08-21",
+    "2026-08-28"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5690,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-27": {
+   "window": {
+    "from": "2026-05-29",
+    "to": "2026-08-27"
+   },
+   "weeks": [
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06",
+    "2026-08-13",
+    "2026-08-20",
+    "2026-08-27"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5680,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-26": {
+   "window": {
+    "from": "2026-05-28",
+    "to": "2026-08-26"
+   },
+   "weeks": [
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05",
+    "2026-08-12",
+    "2026-08-19",
+    "2026-08-26"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5670,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-25": {
+   "window": {
+    "from": "2026-05-27",
+    "to": "2026-08-25"
+   },
+   "weeks": [
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04",
+    "2026-08-11",
+    "2026-08-18",
+    "2026-08-25"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5660,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-24": {
+   "window": {
+    "from": "2026-05-26",
+    "to": "2026-08-24"
+   },
+   "weeks": [
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10",
+    "2026-08-17",
+    "2026-08-24"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5650,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-23": {
+   "window": {
+    "from": "2026-05-25",
+    "to": "2026-08-23"
+   },
+   "weeks": [
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5640,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-22": {
+   "window": {
+    "from": "2026-05-24",
+    "to": "2026-08-22"
+   },
+   "weeks": [
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5630,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-21": {
+   "window": {
+    "from": "2026-05-23",
+    "to": "2026-08-21"
+   },
+   "weeks": [
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14",
+    "2026-08-21"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5620,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-20": {
+   "window": {
+    "from": "2026-05-22",
+    "to": "2026-08-20"
+   },
+   "weeks": [
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06",
+    "2026-08-13",
+    "2026-08-20"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5610,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-19": {
+   "window": {
+    "from": "2026-05-21",
+    "to": "2026-08-19"
+   },
+   "weeks": [
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05",
+    "2026-08-12",
+    "2026-08-19"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "устойчивый рост",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5600,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": 1.0,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-18": {
+   "window": {
+    "from": "2026-05-20",
+    "to": "2026-08-18"
+   },
+   "weeks": [
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04",
+    "2026-08-11",
+    "2026-08-18"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5590,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    }
+   ]
+  },
+  "2026-08-17": {
+   "window": {
+    "from": "2026-05-19",
+    "to": "2026-08-17"
+   },
+   "weeks": [
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10",
+    "2026-08-17"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5580,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1290,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-16": {
+   "window": {
+    "from": "2026-05-18",
+    "to": "2026-08-16"
+   },
+   "weeks": [
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5570,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1285,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-15": {
+   "window": {
+    "from": "2026-05-17",
+    "to": "2026-08-15"
+   },
+   "weeks": [
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5560,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1280,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-14": {
+   "window": {
+    "from": "2026-05-16",
+    "to": "2026-08-14"
+   },
+   "weeks": [
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07",
+    "2026-08-14"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5550,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1275,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-13": {
+   "window": {
+    "from": "2026-05-15",
+    "to": "2026-08-13"
+   },
+   "weeks": [
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06",
+    "2026-08-13"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5540,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1270,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-12": {
+   "window": {
+    "from": "2026-05-14",
+    "to": "2026-08-12"
+   },
+   "weeks": [
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05",
+    "2026-08-12"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5530,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1265,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-11": {
+   "window": {
+    "from": "2026-05-13",
+    "to": "2026-08-11"
+   },
+   "weeks": [
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04",
+    "2026-08-11"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5520,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1260,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-10": {
+   "window": {
+    "from": "2026-05-12",
+    "to": "2026-08-10"
+   },
+   "weeks": [
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03",
+    "2026-08-10"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5510,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1255,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-09": {
+   "window": {
+    "from": "2026-05-11",
+    "to": "2026-08-09"
+   },
+   "weeks": [
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5500,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1250,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-08": {
+   "window": {
+    "from": "2026-05-10",
+    "to": "2026-08-08"
+   },
+   "weeks": [
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5490,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1245,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-07": {
+   "window": {
+    "from": "2026-05-09",
+    "to": "2026-08-07"
+   },
+   "weeks": [
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31",
+    "2026-08-07"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5480,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1240,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-06": {
+   "window": {
+    "from": "2026-05-08",
+    "to": "2026-08-06"
+   },
+   "weeks": [
+    "2026-06-04",
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30",
+    "2026-08-06"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5470,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1235,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-05": {
+   "window": {
+    "from": "2026-05-07",
+    "to": "2026-08-05"
+   },
+   "weeks": [
+    "2026-06-03",
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
+    "2026-08-05"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5460,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1230,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-04": {
+   "window": {
+    "from": "2026-05-06",
+    "to": "2026-08-04"
+   },
+   "weeks": [
+    "2026-06-02",
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28",
+    "2026-08-04"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5450,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1225,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-03": {
+   "window": {
+    "from": "2026-05-05",
+    "to": "2026-08-03"
+   },
+   "weeks": [
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27",
+    "2026-08-03"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5440,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1220,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-02": {
+   "window": {
+    "from": "2026-05-04",
+    "to": "2026-08-02"
+   },
+   "weeks": [
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
+    "2026-08-02"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5430,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1215,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-08-01": {
+   "window": {
+    "from": "2026-05-03",
+    "to": "2026-08-01"
+   },
+   "weeks": [
+    "2026-05-30",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5420,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1210,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-31": {
+   "window": {
+    "from": "2026-05-02",
+    "to": "2026-07-31"
+   },
+   "weeks": [
+    "2026-05-29",
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24",
+    "2026-07-31"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5410,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1205,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-30": {
+   "window": {
+    "from": "2026-05-01",
+    "to": "2026-07-30"
+   },
+   "weeks": [
+    "2026-05-28",
+    "2026-06-04",
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23",
+    "2026-07-30"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5400,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1200,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-29": {
+   "window": {
+    "from": "2026-04-30",
+    "to": "2026-07-29"
+   },
+   "weeks": [
+    "2026-05-27",
+    "2026-06-03",
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5390,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1195,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-28": {
+   "window": {
+    "from": "2026-04-29",
+    "to": "2026-07-28"
+   },
+   "weeks": [
+    "2026-05-26",
+    "2026-06-02",
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21",
+    "2026-07-28"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5380,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1190,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-27": {
+   "window": {
+    "from": "2026-04-28",
+    "to": "2026-07-27"
+   },
+   "weeks": [
+    "2026-05-25",
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20",
+    "2026-07-27"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5370,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1185,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-26": {
+   "window": {
+    "from": "2026-04-27",
+    "to": "2026-07-26"
+   },
+   "weeks": [
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5360,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1180,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-25": {
+   "window": {
+    "from": "2026-04-26",
+    "to": "2026-07-25"
+   },
+   "weeks": [
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5350,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1175,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-24": {
+   "window": {
+    "from": "2026-04-25",
+    "to": "2026-07-24"
+   },
+   "weeks": [
+    "2026-05-22",
+    "2026-05-29",
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17",
+    "2026-07-24"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5340,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1170,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-23": {
+   "window": {
+    "from": "2026-04-24",
+    "to": "2026-07-23"
+   },
+   "weeks": [
+    "2026-05-21",
+    "2026-05-28",
+    "2026-06-04",
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16",
+    "2026-07-23"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5330,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1165,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-22": {
+   "window": {
+    "from": "2026-04-23",
+    "to": "2026-07-22"
+   },
+   "weeks": [
+    "2026-05-20",
+    "2026-05-27",
+    "2026-06-03",
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15",
+    "2026-07-22"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5320,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1160,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-21": {
+   "window": {
+    "from": "2026-04-22",
+    "to": "2026-07-21"
+   },
+   "weeks": [
+    "2026-05-19",
+    "2026-05-26",
+    "2026-06-02",
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14",
+    "2026-07-21"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5310,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1155,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-20": {
+   "window": {
+    "from": "2026-04-21",
+    "to": "2026-07-20"
+   },
+   "weeks": [
+    "2026-05-18",
+    "2026-05-25",
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13",
+    "2026-07-20"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": "ускоряется",
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5300,
+     "growth7": 70,
+     "growth30": 300,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": "ускоряется",
+     "purpose": "Security audit skill",
+     "stars": 1150,
+     "growth7": 35,
+     "growth30": 150,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 30,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-19": {
+   "window": {
+    "from": "2026-04-20",
+    "to": "2026-07-19"
+   },
+   "weeks": [
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5290,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 29,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1145,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 29,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-18": {
+   "window": {
+    "from": "2026-04-19",
+    "to": "2026-07-18"
+   },
+   "weeks": [
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5280,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 28,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1140,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 28,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-17": {
+   "window": {
+    "from": "2026-04-18",
+    "to": "2026-07-17"
+   },
+   "weeks": [
+    "2026-05-15",
+    "2026-05-22",
+    "2026-05-29",
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10",
+    "2026-07-17"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5270,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 27,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1135,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 27,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-16": {
+   "window": {
+    "from": "2026-04-17",
+    "to": "2026-07-16"
+   },
+   "weeks": [
+    "2026-05-14",
+    "2026-05-21",
+    "2026-05-28",
+    "2026-06-04",
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09",
+    "2026-07-16"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5260,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 26,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1130,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 26,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-15": {
+   "window": {
+    "from": "2026-04-16",
+    "to": "2026-07-15"
+   },
+   "weeks": [
+    "2026-05-13",
+    "2026-05-20",
+    "2026-05-27",
+    "2026-06-03",
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08",
+    "2026-07-15"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5250,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 25,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1125,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 25,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-14": {
+   "window": {
+    "from": "2026-04-15",
+    "to": "2026-07-14"
+   },
+   "weeks": [
+    "2026-05-12",
+    "2026-05-19",
+    "2026-05-26",
+    "2026-06-02",
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07",
+    "2026-07-14"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5240,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 24,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1120,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 24,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-13": {
+   "window": {
+    "from": "2026-04-14",
+    "to": "2026-07-13"
+   },
+   "weeks": [
+    "2026-05-11",
+    "2026-05-18",
+    "2026-05-25",
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06",
+    "2026-07-13"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5230,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 23,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1115,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 23,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-12": {
+   "window": {
+    "from": "2026-04-13",
+    "to": "2026-07-12"
+   },
+   "weeks": [
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05",
+    "2026-07-12"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5220,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 22,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1110,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 22,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-11": {
+   "window": {
+    "from": "2026-04-12",
+    "to": "2026-07-11"
+   },
+   "weeks": [
+    "2026-05-09",
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5210,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 21,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1105,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 21,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-10": {
+   "window": {
+    "from": "2026-04-11",
+    "to": "2026-07-10"
+   },
+   "weeks": [
+    "2026-05-08",
+    "2026-05-15",
+    "2026-05-22",
+    "2026-05-29",
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-07-10"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5200,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 20,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1100,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 20,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-09": {
+   "window": {
+    "from": "2026-04-10",
+    "to": "2026-07-09"
+   },
+   "weeks": [
+    "2026-05-07",
+    "2026-05-14",
+    "2026-05-21",
+    "2026-05-28",
+    "2026-06-04",
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02",
+    "2026-07-09"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5190,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 19,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1095,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 19,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-08": {
+   "window": {
+    "from": "2026-04-09",
+    "to": "2026-07-08"
+   },
+   "weeks": [
+    "2026-05-06",
+    "2026-05-13",
+    "2026-05-20",
+    "2026-05-27",
+    "2026-06-03",
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01",
+    "2026-07-08"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5180,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 18,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1090,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 18,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-07": {
+   "window": {
+    "from": "2026-04-08",
+    "to": "2026-07-07"
+   },
+   "weeks": [
+    "2026-05-05",
+    "2026-05-12",
+    "2026-05-19",
+    "2026-05-26",
+    "2026-06-02",
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30",
+    "2026-07-07"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5170,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 17,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1085,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 17,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-06": {
+   "window": {
+    "from": "2026-04-07",
+    "to": "2026-07-06"
+   },
+   "weeks": [
+    "2026-05-04",
+    "2026-05-11",
+    "2026-05-18",
+    "2026-05-25",
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29",
+    "2026-07-06"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5160,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 16,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1080,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 16,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-05": {
+   "window": {
+    "from": "2026-04-06",
+    "to": "2026-07-05"
+   },
+   "weeks": [
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28",
+    "2026-07-05"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5150,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 15,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1075,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 15,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-04": {
+   "window": {
+    "from": "2026-04-05",
+    "to": "2026-07-04"
+   },
+   "weeks": [
+    "2026-05-02",
+    "2026-05-09",
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5140,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 14,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1070,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 14,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-03": {
+   "window": {
+    "from": "2026-04-04",
+    "to": "2026-07-03"
+   },
+   "weeks": [
+    "2026-05-01",
+    "2026-05-08",
+    "2026-05-15",
+    "2026-05-22",
+    "2026-05-29",
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26",
+    "2026-07-03"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5130,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 13,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1065,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 13,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-02": {
+   "window": {
+    "from": "2026-04-03",
+    "to": "2026-07-02"
+   },
+   "weeks": [
+    "2026-04-30",
+    "2026-05-07",
+    "2026-05-14",
+    "2026-05-21",
+    "2026-05-28",
+    "2026-06-04",
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25",
+    "2026-07-02"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5120,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 12,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1060,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 12,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-07-01": {
+   "window": {
+    "from": "2026-04-02",
+    "to": "2026-07-01"
+   },
+   "weeks": [
+    "2026-04-29",
+    "2026-05-06",
+    "2026-05-13",
+    "2026-05-20",
+    "2026-05-27",
+    "2026-06-03",
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24",
+    "2026-07-01"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5110,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 11,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1055,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 11,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-06-30": {
+   "window": {
+    "from": "2026-04-01",
+    "to": "2026-06-30"
+   },
+   "weeks": [
+    "2026-04-28",
+    "2026-05-05",
+    "2026-05-12",
+    "2026-05-19",
+    "2026-05-26",
+    "2026-06-02",
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23",
+    "2026-06-30"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5100,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 10,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1050,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 10,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-06-29": {
+   "window": {
+    "from": "2026-03-31",
+    "to": "2026-06-29"
+   },
+   "weeks": [
+    "2026-04-27",
+    "2026-05-04",
+    "2026-05-11",
+    "2026-05-18",
+    "2026-05-25",
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22",
+    "2026-06-29"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5090,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 9,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1045,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 9,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-06-28": {
+   "window": {
+    "from": "2026-03-30",
+    "to": "2026-06-28"
+   },
+   "weeks": [
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21",
+    "2026-06-28"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5080,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 8,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1040,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 8,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-06-27": {
+   "window": {
+    "from": "2026-03-29",
+    "to": "2026-06-27"
+   },
+   "weeks": [
+    "2026-04-25",
+    "2026-05-02",
+    "2026-05-09",
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20",
+    "2026-06-27"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5070,
+     "growth7": 70,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 7,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      70
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1035,
+     "growth7": 35,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 7,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      35
+     ]
+    }
+   ]
+  },
+  "2026-06-26": {
+   "window": {
+    "from": "2026-03-28",
+    "to": "2026-06-26"
+   },
+   "weeks": [
+    "2026-04-24",
+    "2026-05-01",
+    "2026-05-08",
+    "2026-05-15",
+    "2026-05-22",
+    "2026-05-29",
+    "2026-06-05",
+    "2026-06-12",
+    "2026-06-19",
+    "2026-06-26"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5060,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 6,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1030,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 6,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "2026-06-25": {
+   "window": {
+    "from": "2026-03-27",
+    "to": "2026-06-25"
+   },
+   "weeks": [
+    "2026-04-23",
+    "2026-04-30",
+    "2026-05-07",
+    "2026-05-14",
+    "2026-05-21",
+    "2026-05-28",
+    "2026-06-04",
+    "2026-06-11",
+    "2026-06-18",
+    "2026-06-25"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5050,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 5,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1025,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 5,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "2026-06-24": {
+   "window": {
+    "from": "2026-03-26",
+    "to": "2026-06-24"
+   },
+   "weeks": [
+    "2026-04-22",
+    "2026-04-29",
+    "2026-05-06",
+    "2026-05-13",
+    "2026-05-20",
+    "2026-05-27",
+    "2026-06-03",
+    "2026-06-10",
+    "2026-06-17",
+    "2026-06-24"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5040,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 4,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1020,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 4,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "2026-06-23": {
+   "window": {
+    "from": "2026-03-25",
+    "to": "2026-06-23"
+   },
+   "weeks": [
+    "2026-04-21",
+    "2026-04-28",
+    "2026-05-05",
+    "2026-05-12",
+    "2026-05-19",
+    "2026-05-26",
+    "2026-06-02",
+    "2026-06-09",
+    "2026-06-16",
+    "2026-06-23"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5030,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 3,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1015,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 3,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "2026-06-22": {
+   "window": {
+    "from": "2026-03-24",
+    "to": "2026-06-22"
+   },
+   "weeks": [
+    "2026-04-20",
+    "2026-04-27",
+    "2026-05-04",
+    "2026-05-11",
+    "2026-05-18",
+    "2026-05-25",
+    "2026-06-01",
+    "2026-06-08",
+    "2026-06-15",
+    "2026-06-22"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5020,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 2,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1010,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 2,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "2026-06-21": {
+   "window": {
+    "from": "2026-03-23",
+    "to": "2026-06-21"
+   },
+   "weeks": [
+    "2026-04-19",
+    "2026-04-26",
+    "2026-05-03",
+    "2026-05-10",
+    "2026-05-17",
+    "2026-05-24",
+    "2026-05-31",
+    "2026-06-07",
+    "2026-06-14",
+    "2026-06-21"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5010,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 1,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1005,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 1,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "2026-06-20": {
+   "window": {
+    "from": "2026-03-22",
+    "to": "2026-06-20"
+   },
+   "weeks": [
+    "2026-04-18",
+    "2026-04-25",
+    "2026-05-02",
+    "2026-05-09",
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06",
+    "2026-06-13",
+    "2026-06-20"
+   ],
+   "projects": [
+    {
+     "repo": "acme/orchestra",
+     "url": "https://github.com/acme/orchestra",
+     "language": "Python",
+     "category": "Оркестрация агентов",
+     "industry": null,
+     "status": null,
+     "purpose": "Multi-agent orchestrator",
+     "stars": 5000,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 0,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "repo": "acme/gappy",
+     "url": "https://github.com/acme/gappy",
+     "language": "JavaScript",
+     "category": "Вертикальные агенты",
+     "industry": "Кибербезопасность",
+     "status": null,
+     "purpose": "Security audit skill",
+     "stars": 1000,
+     "growth7": null,
+     "growth30": null,
+     "growth90": null,
+     "acceleration": null,
+     "active_days": 0,
+     "first_seen": "2026-06-20",
+     "weekly": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  }
+ }
+}
