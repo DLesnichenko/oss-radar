@@ -102,8 +102,13 @@ def main():
     parser.add_argument("--snapshots", default="data/snapshots")
     parser.add_argument("--out", default="data/radar.json")
     parser.add_argument("--rules", default=str(DEFAULT_RULES))
+    parser.add_argument("--purposes", default="data/purposes.json")
     args = parser.parse_args()
-    radar = build(args.snapshots, classify.load_rules(args.rules), {})
+    purposes_path = Path(args.purposes)
+    purposes = (
+        json.loads(purposes_path.read_text(encoding="utf-8")) if purposes_path.exists() else {}
+    )
+    radar = build(args.snapshots, classify.load_rules(args.rules), purposes)
     Path(args.out).write_text(
         json.dumps(radar, ensure_ascii=False, indent=1), encoding="utf-8"
     )
