@@ -1,0 +1,13 @@
+{
+  "repos": [
+    "anthropics/claude-code",
+    "anthropics/skills",
+    "modelcontextprotocol/servers",
+    "langchain-ai/langgraph",
+    "crewAIInc/crewAI",
+    "microsoft/autogen",
+    "openai/openai-agents-python",
+    "browser-use/browser-use",
+    "punkpeye/awesome-mcp-servers"
+  ]
+}
