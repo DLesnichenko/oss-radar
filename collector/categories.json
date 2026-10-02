@@ -1,0 +1,17 @@
+{
+  "categories": [
+    {"name": "Оркестрация агентов", "keywords": ["orchestrat", "multi-agent", "multi agent", "swarm", "agent framework", "workflow"]},
+    {"name": "Навыки и методологии", "keywords": ["skill", "prompt", "methodolog", "playbook"]},
+    {"name": "Контент и дизайн", "keywords": ["voice", "audio", "image", "design", "content", "tts", "diffusion"]},
+    {"name": "Экономия и контекст", "keywords": ["token", "context", "memory", "cost", "cache", "compress"]},
+    {"name": "Веб и инструменты", "keywords": ["web", "browser", "scrap", "crawl", "mcp", "command line", "tool"]}
+  ],
+  "industries": [
+    {"name": "Кибербезопасность", "keywords": ["security", "cyber", "pentest", "vulnerab", "malware"]},
+    {"name": "Контент и медиа", "keywords": ["video", "podcast", "music", "film", "youtube"]},
+    {"name": "Карьера и HR", "keywords": ["job search", "recruit", "resume", "hiring", "career"]},
+    {"name": "Маркетинг и продажи", "keywords": ["marketing", "seo", "sales", "lead gen", "advertis"]},
+    {"name": "Финансы", "keywords": ["trading", "finance", "financial", "invoice", "accounting", "stock market"]},
+    {"name": "Разработка", "keywords": ["devops", "ci/cd", "code review", "pull request"]}
+  ]
+}
