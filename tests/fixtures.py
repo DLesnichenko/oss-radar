@@ -3,6 +3,7 @@
 acme/orchestra  old repo, +10 stars/day until 30 days ago, then +30/day
 acme/young      created 10 days before END, +100 stars/day
 acme/gappy      old repo, +5 stars/day, no snapshots 10..40 days before END
+acme/newcomer   old repo first tracked 44 days before END, +10 stars/day (no history 60 days back)
 """
 import json
 import sys
@@ -40,6 +41,14 @@ def write_fixture_snapshots(directory):
                 "description": "Brand new agent <b>toolkit</b>",
                 "topics": [],
                 "created_at": (END - timedelta(days=10)).isoformat() + "T00:00:00Z",
+            }
+        if k <= 44:
+            repos["acme/newcomer"] = {
+                "stars": 2000 + 10 * (44 - k),
+                "language": "Go",
+                "description": "Found by search long after it was created",
+                "topics": [],
+                "created_at": "2025-01-01T00:00:00Z",
             }
         if not 10 <= k <= 40:
             repos["acme/gappy"] = {

@@ -54,19 +54,36 @@ class AccelerationTest(unittest.TestCase):
 
 class StatusTest(unittest.TestCase):
     def test_thresholds(self):
-        self.assertEqual(metrics.status(10, 1.5), "ускоряется")
-        self.assertEqual(metrics.status(10, 1.49), "устойчивый рост")
-        self.assertEqual(metrics.status(10, 0.8), "устойчивый рост")
-        self.assertEqual(metrics.status(10, 0.79), "рост без ускорения")
-        self.assertEqual(metrics.status(10, 0.4), "рост без ускорения")
-        self.assertEqual(metrics.status(10, 0.39), "замедляется")
+        self.assertEqual(metrics.status(10, 1.5, 5), "ускоряется")
+        self.assertEqual(metrics.status(10, 1.49, 5), "устойчивый рост")
+        self.assertEqual(metrics.status(10, 0.8, 5), "устойчивый рост")
+        self.assertEqual(metrics.status(10, 0.79, 5), "рост без ускорения")
+        self.assertEqual(metrics.status(10, 0.4, 5), "рост без ускорения")
+        self.assertEqual(metrics.status(10, 0.39, 5), "замедляется")
 
     def test_unknown_growth_has_no_status(self):
-        self.assertIsNone(metrics.status(None, 2.0))
+        self.assertIsNone(metrics.status(None, 2.0, 5))
 
-    def test_no_acceleration_with_positive_growth_is_accelerating(self):
-        self.assertEqual(metrics.status(50, None), "ускоряется")
-        self.assertIsNone(metrics.status(0, None))
+    def test_no_acceleration_because_nothing_grew_before_is_accelerating(self):
+        self.assertEqual(metrics.status(50, None, 0), "ускоряется")
+        self.assertEqual(metrics.status(50, None, -3), "ускоряется")
+        self.assertIsNone(metrics.status(0, None, 0))
+
+    def test_unknown_previous_window_gives_no_status_not_a_guess(self):
+        self.assertIsNone(metrics.status(50, None, None))
+
+
+class PreviousGrowthTest(unittest.TestCase):
+    def test_growth_over_the_30_days_before_the_last_30(self):
+        history = {days(60): 100, days(30): 200, D: 500}
+        self.assertEqual(metrics.previous_growth(history, D), 100)
+
+    def test_unknown_when_history_does_not_reach_back_60_days(self):
+        self.assertIsNone(metrics.previous_growth({days(30): 200, D: 500}, D))
+
+    def test_young_repo_has_a_known_zero(self):
+        history = {days(1): 500, D: 520}
+        self.assertEqual(metrics.previous_growth(history, D, created=days(10)), 0)
 
 
 class ActiveDaysTest(unittest.TestCase):

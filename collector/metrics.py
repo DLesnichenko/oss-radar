@@ -28,18 +28,26 @@ def growth(history, day, window, created=None):
     return end - start
 
 
+def previous_growth(history, day, created=None):
+    """Growth over the 30 days before the last 30; None when history does not reach back that far."""
+    return growth(history, day - timedelta(days=30), 30, created)
+
+
 def acceleration(history, day, created=None):
     recent = growth(history, day, 30, created)
-    previous = growth(history, day - timedelta(days=30), 30, created)
+    previous = previous_growth(history, day, created)
     if recent is None or previous is None or previous <= 0:
         return None
     return recent / previous
 
 
-def status(growth30, accel):
+def status(growth30, accel, previous):
+    """`previous` is previous_growth(): None means unknown (no status), <= 0 means nothing grew before."""
     if growth30 is None:
         return None
     if accel is None:
+        if previous is None:
+            return None
         return "ускоряется" if growth30 > 0 else None
     if accel >= 1.5:
         return "ускоряется"

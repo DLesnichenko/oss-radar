@@ -96,6 +96,13 @@ class CollectTest(unittest.TestCase):
         )
         self.assertEqual(collect.search_candidates(http, ["q"], 2), ["x/1", "x/2"])
 
+    def test_candidates_are_taken_round_robin_across_queries(self):
+        def items(*names):
+            return 200, {"items": [{"full_name": n} for n in names]}, {}
+
+        http = FakeHttp({"q=first": items("a/1", "a/2", "a/3"), "q=second": items("b/1", "b/2", "b/3")})
+        self.assertEqual(collect.search_candidates(http, ["first", "second"], 4), ["a/1", "b/1", "a/2", "b/2"])
+
 
 class BackfillTest(unittest.TestCase):
     def setUp(self):
@@ -110,7 +117,9 @@ class BackfillTest(unittest.TestCase):
                   "2026-09-27T01:00:00Z", "2026-09-27T02:00:00Z"]
         return [{"starred_at": s, "user": {}} for s in stamps]
 
-    def test_cumulative_counts_per_day_and_star_json_header(self):
+    def test_counts_are_stars_at_the_start_of_each_day(self):
+        # The daily collector runs in the early morning, so its snapshot for day D is
+        # also roughly "start of D"; backfilled days must use the same moment.
         http = FakeHttp(
             {
                 "/stargazers": (200, self.stargazers(), {}),
@@ -123,13 +132,42 @@ class BackfillTest(unittest.TestCase):
             for p in self.out.glob("*.json")
         }
         self.assertEqual(stars["2026-09-19"], 0)
-        self.assertEqual(stars["2026-09-20"], 2)
-        self.assertEqual(stars["2026-09-24"], 2)
-        self.assertEqual(stars["2026-09-25"], 3)
+        self.assertEqual(stars["2026-09-20"], 0)
+        self.assertEqual(stars["2026-09-21"], 2)
+        self.assertEqual(stars["2026-09-25"], 2)
         self.assertEqual(stars["2026-09-26"], 3)
         self.assertNotIn("2026-09-27", stars)
         sg_headers = [h for url, h in http.calls if "/stargazers" in url]
         self.assertTrue(all("star+json" in h["Accept"] for h in sg_headers))
+
+    def test_repos_above_the_stargazer_listing_cap_are_skipped_without_requests(self):
+        http = FakeHttp({"/stargazers": (422, {}, {}), "/repos/a/big": (200, repo_json(45000), {})})
+        collect.backfill(http, ["a/big"], self.out, TODAY, days=10)
+        self.assertEqual(list(self.out.iterdir()), [])
+        self.assertFalse(any("/stargazers" in url for url, _ in http.calls))
+
+    def test_one_failing_repo_does_not_stop_the_others(self):
+        http = FakeHttp(
+            {
+                "/repos/a/bad/stargazers": (422, {"message": "x"}, {}),
+                "/repos/a/ok/stargazers": (200, self.stargazers(), {}),
+                "/repos/a/bad": (200, repo_json(5), {}),
+                "/repos/a/ok": (200, repo_json(5), {}),
+            }
+        )
+        collect.backfill(http, ["a/bad", "a/ok"], self.out, TODAY, days=10)
+        data = json.loads((self.out / "2026-09-25.json").read_text(encoding="utf-8"))
+        self.assertEqual(set(data["repos"]), {"a/ok"})
+
+    def test_rate_limit_during_backfill_propagates(self):
+        http = FakeHttp(
+            {
+                "/stargazers": (403, {}, {"x-ratelimit-remaining": "0"}),
+                "/repos/a/one": (200, repo_json(5), {}),
+            }
+        )
+        with self.assertRaises(collect.RateLimited):
+            collect.backfill(http, ["a/one"], self.out, TODAY, days=10)
 
     def test_existing_entries_are_not_overwritten(self):
         existing = {"date": "2026-09-25", "repos": {"a/one": {"stars": 99}}}

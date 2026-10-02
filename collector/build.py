@@ -54,7 +54,7 @@ def _project(name, day, history, meta, rules, purposes):
         "language": meta.get("language"),
         "category": classify.category_of(repo, rules),
         "industry": classify.industry_of(repo, rules),
-        "status": metrics.status(g30, accel),
+        "status": metrics.status(g30, accel, metrics.previous_growth(history, day, created)),
         "purpose": purposes.get(name) or meta.get("description") or "",
         "stars": history[day],
         "growth7": metrics.growth(history, day, 7, created),

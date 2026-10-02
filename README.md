@@ -13,7 +13,7 @@ collector/build.py     снимки -> data/radar.json                      (р�
 index.html + assets/   читают только data/radar.json
 ```
 
-Рост считается по собственным ежедневным снимкам, поэтому окно в 90 дней заполняется постепенно. Чтобы получить историю сразу, один раз запустите восстановление (только для проектов из `collector/watchlist.json`).
+Рост считается по собственным ежедневным снимкам, поэтому окно в 90 дней заполняется постепенно. Чтобы получить историю сразу, один раз запустите восстановление (только для проектов из `collector/watchlist.json`). Ограничения восстановления: нужен `GITHUB_TOKEN` (без него GitHub отвечает 401), а список звёзд GitHub отдаёт только для проектов до 40 000 звёзд. Более крупные проекты пропускаются с предупреждением, и их история копится из ежедневных снимков.
 
 ## Запуск у себя
 
@@ -21,7 +21,7 @@ index.html + assets/   читают только data/radar.json
 
 ```
 python -m collector.collect               # снимок на сегодня (GITHUB_TOKEN повышает лимит API)
-python -m collector.collect --backfill    # восстановить последние 90 дней для списка наблюдения
+python -m collector.collect --backfill    # восстановить последние 90 дней для списка наблюдения (нужен GITHUB_TOKEN)
 python -m collector.purpose               # описания через Claude API (нужен ANTHROPIC_API_KEY)
 python -m collector.build                 # собрать data/radar.json
 python -m http.server 8000                # открыть http://localhost:8000/

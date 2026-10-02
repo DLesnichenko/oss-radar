@@ -69,6 +69,12 @@ class BuildTest(unittest.TestCase):
         self.assertEqual(g["growth7"], 35)
         self.assertEqual(g["growth90"], 450)
 
+    def test_old_repo_tracked_under_60_days_has_growth_but_no_status_or_acceleration(self):
+        n = self.p["acme/newcomer"]
+        self.assertEqual(n["growth30"], 300)
+        self.assertIsNone(n["acceleration"])
+        self.assertIsNone(n["status"])
+
     def test_purpose_override_is_used(self):
         radar = build.build(Path(self._tmp.name), RULES, {"acme/orchestra": "Своя фраза"})
         got = {x["repo"]: x for x in radar["by_date"][TODAY]["projects"]}

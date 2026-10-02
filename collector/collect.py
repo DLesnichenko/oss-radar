@@ -9,6 +9,7 @@ import argparse
 import json
 import math
 import os
+import sys
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -19,6 +20,7 @@ API = "https://api.github.com"
 TOPICS = ["ai-agents", "agent-skills", "mcp", "llm-agents"]
 RECENT_DAYS = 180
 GONE = (404, 410, 451)
+STARGAZER_LIST_CAP = 40000  # GitHub's stargazer listing stops at 400 pages of 100
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -53,15 +55,19 @@ def _get(http, url, headers=None):
 
 
 def search_candidates(http, queries, limit):
-    found = []
+    """Results of all queries interleaved, so a low `limit` cannot cut off the later topics."""
+    per_query = []
     for query in queries:
         url = f"{API}/search/repositories?q={urllib.parse.quote(query)}&sort=stars&order=desc&per_page=30"
         status, body = _get(http, url)
         if status != 200:
             raise RuntimeError(f"GitHub search returned {status} for {query!r}")
-        for item in body.get("items", []):
-            if item["full_name"] not in found:
-                found.append(item["full_name"])
+        per_query.append([item["full_name"] for item in body.get("items", [])])
+    found = []
+    for rank in range(max(map(len, per_query), default=0)):
+        for names in per_query:
+            if rank < len(names) and names[rank] not in found:
+                found.append(names[rank])
     return found[:limit]
 
 
@@ -124,7 +130,12 @@ def _starred_dates(http, repo, total, since):
     return dates
 
 
+def _warn(message):
+    print(f"warning: {message}", file=sys.stderr)
+
+
 def backfill(http, repos, out_dir, today, days=90):
+    """Restore past star counts. Best effort: a repo that cannot be restored is skipped with a warning."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     since = today - timedelta(days=days)
@@ -133,13 +144,22 @@ def backfill(http, repos, out_dir, today, days=90):
         if entry is None:
             continue
         total = entry["stars"]
-        starred = _starred_dates(http, repo, total, since)
+        if total > STARGAZER_LIST_CAP:
+            _warn(f"{repo} has {total} stars; GitHub lists only the first {STARGAZER_LIST_CAP} "
+                  "stargazers, so its history will accumulate from daily snapshots")
+            continue
+        try:
+            starred = _starred_dates(http, repo, total, since)
+        except RuntimeError as err:
+            _warn(f"skipping backfill of {repo}: {err}")
+            continue
         for offset in range(days, 0, -1):
             day = today - timedelta(days=offset)
             path = out_dir / f"{day.isoformat()}.json"
             data = _read_snapshot(path, day)
             if repo not in data["repos"]:
-                data["repos"][repo] = {"stars": total - sum(1 for d in starred if d > day)}
+                # Stars at the start of `day`, the moment the daily snapshot approximates.
+                data["repos"][repo] = {"stars": total - sum(1 for d in starred if d >= day)}
                 _write_snapshot(path, data)
 
 
@@ -153,7 +173,10 @@ def main():
     today = date.today()
     watchlist = json.loads(Path(args.watchlist).read_text(encoding="utf-8"))["repos"]
     if args.backfill:
-        backfill(default_http, watchlist, args.out, today)
+        try:
+            backfill(default_http, watchlist, args.out, today)
+        except RateLimited as err:
+            _warn(f"rate limit reached during backfill ({err}); the daily snapshot still runs next")
         return
     since = (today - timedelta(days=RECENT_DAYS)).isoformat()
     queries = [f"topic:{topic} created:>{since}" for topic in TOPICS]
