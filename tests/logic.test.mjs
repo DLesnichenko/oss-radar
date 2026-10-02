@@ -2,7 +2,39 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   esc, filterProjects, rankBy, segments, weeklyTotals, fmt, fmtX, fmtDate, parseState, serializeState, plural,
+  verticalKpis, chartPoints, splitRuns,
 } from "../assets/logic.js";
+
+test("verticalKpis counts projects and industries, sums 30-day growth and names the leader", () => {
+  const list = [
+    p({ repo: "a/1", industry: "Финансы", growth30: 10 }),
+    p({ repo: "a/2", industry: "Финансы", growth30: 50 }),
+    p({ repo: "a/3", industry: "Карьера и HR", growth30: null }),
+  ];
+  assert.deepEqual(verticalKpis(list), { count: 3, industries: 2, growth30: 60, leader: "a/2" });
+  assert.deepEqual(verticalKpis([]), { count: 0, industries: 0, growth30: null, leader: null });
+});
+
+test("chartPoints maps the max to the top, zero to the bottom, and keeps nulls as gaps", () => {
+  const pts = chartPoints([0, null, 50, 100], { width: 300, height: 200, padX: 0, padTop: 20, padBottom: 20 });
+  assert.equal(pts.length, 4);
+  assert.deepEqual(pts[0], { x: 0, y: 180, value: 0 });
+  assert.equal(pts[1], null);
+  assert.deepEqual(pts[3], { x: 300, y: 20, value: 100 });
+  assert.equal(pts[2].y, 100);
+});
+
+test("chartPoints survives a single point and all-zero data without NaN", () => {
+  const one = chartPoints([5], { width: 300, height: 200, padX: 10, padTop: 20, padBottom: 20 });
+  assert.ok(Number.isFinite(one[0].x) && Number.isFinite(one[0].y));
+  const zeros = chartPoints([0, 0], { width: 300, height: 200, padX: 0, padTop: 20, padBottom: 20 });
+  assert.ok(zeros.every((q) => Number.isFinite(q.y)));
+});
+
+test("splitRuns breaks the line at null points", () => {
+  const runs = splitRuns([{ x: 0 }, { x: 1 }, null, { x: 3 }]);
+  assert.deepEqual(runs, [[{ x: 0 }, { x: 1 }], [{ x: 3 }]]);
+});
 
 test("plural picks the Russian noun form", () => {
   const forms = ["проект", "проекта", "проектов"];

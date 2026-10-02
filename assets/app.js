@@ -1,6 +1,8 @@
 import { esc, fmtDate, filterProjects, parseState, serializeState } from "./logic.js";
 import { hint, selectOptions } from "./views/common.js";
 import { renderRating } from "./views/rating.js";
+import { renderVertical } from "./views/vertical.js";
+import { renderSegments } from "./views/segments.js";
 
 const TABS = [
   ["practice", "Практика: скилл или проект"],
@@ -9,7 +11,7 @@ const TABS = [
   ["segments", "Сегменты и динамика"],
 ];
 const METHOD_TAB = ["method", "Методология"];
-const VIEWS = { rating: renderRating };
+const VIEWS = { rating: renderRating, vertical: renderVertical, segments: renderSegments };
 const SHARED_FILTERS = ["category", "status", "language", "query"];
 const CATEGORY_ORDER = [
   "Оркестрация агентов", "Навыки и методологии", "Контент и дизайн", "Экономия и контекст",

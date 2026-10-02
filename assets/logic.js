@@ -89,6 +89,48 @@ export function segments(projects, key = "category") {
   return rows.sort((a, b) => (b.growth30 ?? -Infinity) - (a.growth30 ?? -Infinity));
 }
 
+export function verticalKpis(projects) {
+  const ranked = rankBy(projects, "growth30");
+  const leader = ranked.length && ranked[0].growth30 != null ? ranked[0].repo : null;
+  return {
+    count: projects.length,
+    industries: new Set(projects.map((p) => p.industry).filter(Boolean)).size,
+    growth30: sumKnown(projects.map((p) => p.growth30)),
+    leader,
+  };
+}
+
+// Line-chart geometry. Null values stay null so the line can break instead of lying about missing weeks.
+export function chartPoints(values, { width, height, padX, padTop, padBottom }) {
+  const known = values.filter((v) => v != null);
+  const max = known.length && Math.max(...known) > 0 ? Math.max(...known) : 1;
+  const span = height - padTop - padBottom;
+  const step = values.length > 1 ? (width - 2 * padX) / (values.length - 1) : 0;
+  return values.map((value, i) =>
+    value == null
+      ? null
+      : {
+          x: values.length > 1 ? padX + i * step : width / 2,
+          y: padTop + (1 - value / max) * span,
+          value,
+        },
+  );
+}
+
+export function splitRuns(points) {
+  const runs = [];
+  let current = [];
+  for (const point of points) {
+    if (point) current.push(point);
+    else if (current.length) {
+      runs.push(current);
+      current = [];
+    }
+  }
+  if (current.length) runs.push(current);
+  return runs;
+}
+
 export function weeklyTotals(projects, weeks) {
   return weeks.map((week, i) => ({ week, gain: sumKnown(projects.map((p) => (p.weekly || [])[i] ?? null)) }));
 }
