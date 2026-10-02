@@ -2,8 +2,23 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   esc, filterProjects, rankBy, segments, weeklyTotals, fmt, fmtX, fmtDate, parseState, serializeState, plural,
-  verticalKpis, chartPoints, splitRuns, fillPrompt,
+  verticalKpis, chartPoints, splitRuns, fillPrompt, effectiveMetric,
 } from "../assets/logic.js";
+
+test("weeklyTotals is null when fewer than half of the projects have data for that week", () => {
+  const list = [p({ weekly: [0] }), p({ weekly: [null] }), p({ weekly: [null] })];
+  assert.deepEqual(weeklyTotals(list, ["w"]), [{ week: "w", gain: null }]);
+  const enough = [p({ weekly: [10] }), p({ weekly: [5] }), p({ weekly: [null] })];
+  assert.deepEqual(weeklyTotals(enough, ["w"]), [{ week: "w", gain: 15 }]);
+});
+
+test("effectiveMetric falls back to stars when no project has a value for the metric", () => {
+  const empty = [p({ growth30: null }), p({ growth30: null })];
+  assert.equal(effectiveMetric(empty, "growth30"), "stars");
+  assert.equal(effectiveMetric([p({ growth30: null }), p({ growth30: 3 })], "growth30"), "growth30");
+  assert.equal(effectiveMetric(empty, "stars"), "stars");
+  assert.equal(effectiveMetric([], "growth30"), "growth30");
+});
 
 test("fillPrompt inserts the project name everywhere, or a placeholder when none is selected", () => {
   assert.equal(fillPrompt("Я изучаю {project}. Что делает {project}?", "a/b"), "Я изучаю a/b. Что делает a/b?");

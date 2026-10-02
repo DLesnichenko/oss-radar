@@ -38,6 +38,12 @@ export function seenTag(p, date) {
   return p.first_seen === date ? "Впервые в радаре" : "Был в радаре";
 }
 
+export function noDataNotice(requestedKey, effectiveKey) {
+  if (requestedKey === effectiveKey) return "";
+  const label = METRICS.find((m) => m.key === requestedKey)?.label ?? requestedKey;
+  return `<div class="callout warn">Для показателя «${esc(label)}» пока нет данных: радар копит историю ежедневными снимками. Пока проекты упорядочены по числу звёзд.</div>`;
+}
+
 export function emptyState() {
   return `<div class="panel empty"><p>Ничего не найдено. Измените запрос или сбросьте фильтры.</p>
     <button class="btn ghost" data-action="reset">Сбросить фильтры</button></div>`;

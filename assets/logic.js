@@ -135,6 +135,18 @@ export function splitRuns(points) {
   return runs;
 }
 
+// A week's total is shown only when at least half of the projects have data for it;
+// a sum over a few known projects would pass off partial data as the market total.
 export function weeklyTotals(projects, weeks) {
-  return weeks.map((week, i) => ({ week, gain: sumKnown(projects.map((p) => (p.weekly || [])[i] ?? null)) }));
+  const needed = Math.ceil(projects.length / 2);
+  return weeks.map((week, i) => {
+    const known = projects.map((p) => (p.weekly || [])[i] ?? null).filter((v) => v != null);
+    return { week, gain: known.length && known.length >= needed ? sumKnown(known) : null };
+  });
+}
+
+// On day one no project has growth figures yet; rank by total stars instead of a wall of "н/д".
+export function effectiveMetric(projects, key) {
+  if (key === "stars" || !projects.length || projects.some((p) => p[key] != null)) return key;
+  return "stars";
 }

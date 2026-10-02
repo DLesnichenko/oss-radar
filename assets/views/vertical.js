@@ -1,5 +1,7 @@
-import { esc, fmt, rankBy, verticalKpis } from "../logic.js";
-import { emptyState, rankedList, detailCard, selectOptions, TOP_N_OPTIONS, takeTop } from "./common.js";
+import { esc, fmt, rankBy, verticalKpis, effectiveMetric } from "../logic.js";
+import {
+  emptyState, noDataNotice, rankedList, detailCard, selectOptions, TOP_N_OPTIONS, takeTop,
+} from "./common.js";
 
 const INDUSTRY_TASKS = {
   "Кибербезопасность": "Проверка защищённости, поиск угроз и применение отраслевых фреймворков.",
@@ -46,9 +48,10 @@ export function renderVertical({ state, projects, all, date }) {
     ${tile("Лидер текущего месяца", kpi.leader ? esc(kpi.leader) : "н/д")}
   </div>`;
 
-  const top = takeTop(rankBy(vertical, "growth30"), state.topN);
+  const metricKey = effectiveMetric(vertical, "growth30");
+  const top = takeTop(rankBy(vertical, metricKey), state.topN);
   const selected = top.find((p) => p.repo === state.selected) ?? top[0];
-  return `${header}${tiles}<div class="split">${rankedList(top, "growth30", selected.repo, date)}${detailCard(selected, date, {
+  return `${header}${tiles}${noDataNotice("growth30", metricKey)}<div class="split">${rankedList(top, metricKey, selected.repo, date)}${detailCard(selected, date, {
     eyebrow: selected.industry,
     task: INDUSTRY_TASKS[selected.industry],
   })}</div>`;
