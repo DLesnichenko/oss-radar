@@ -11,6 +11,10 @@ export function fmt(n) {
   return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
+export function fillPrompt(template, project) {
+  return template.split("{project}").join(project || "[название проекта]");
+}
+
 export function plural(n, [one, few, many]) {
   const last = n % 10;
   const lastTwo = n % 100;

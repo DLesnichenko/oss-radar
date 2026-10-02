@@ -2,8 +2,15 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   esc, filterProjects, rankBy, segments, weeklyTotals, fmt, fmtX, fmtDate, parseState, serializeState, plural,
-  verticalKpis, chartPoints, splitRuns,
+  verticalKpis, chartPoints, splitRuns, fillPrompt,
 } from "../assets/logic.js";
+
+test("fillPrompt inserts the project name everywhere, or a placeholder when none is selected", () => {
+  assert.equal(fillPrompt("Я изучаю {project}. Что делает {project}?", "a/b"), "Я изучаю a/b. Что делает a/b?");
+  assert.equal(fillPrompt("Я изучаю {project}.", ""), "Я изучаю [название проекта].");
+  assert.equal(fillPrompt("Я изучаю {project}.", null), "Я изучаю [название проекта].");
+  assert.equal(fillPrompt("{project}", "x/$&y"), "x/$&y", "special replacement patterns must stay literal");
+});
 
 test("verticalKpis counts projects and industries, sums 30-day growth and names the leader", () => {
   const list = [

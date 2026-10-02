@@ -146,6 +146,31 @@ th:first-child, td:first-child { text-align: left; white-space: normal; }
 th { color: var(--muted); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
 tbody tr:last-child td { border-bottom: 0; }
 
+.hero-card { margin-bottom: 14px; background: linear-gradient(135deg, var(--surface), #0e2a3a); }
+.three-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px; margin-bottom: 14px; }
+.three-col h3 { margin: 8px 0 4px; }
+.num { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent-dim); color: var(--accent); font-weight: 700; }
+.callout.warn { border-left-color: var(--warn); background: rgba(251, 191, 36, .08); margin: 0 0 14px; }
+.path { margin-top: 16px; }
+.path h3 { margin: 4px 0; font-size: 22px; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px; margin: 12px 0; padding: 0; list-style: none; counter-reset: s; }
+.steps li { counter-increment: s; padding: 10px 12px; border-radius: 10px; background: var(--surface-2); font-size: 14px; }
+.steps li::before { content: counter(s); display: inline-grid; place-items: center; width: 22px; height: 22px; margin-right: 8px; border-radius: 50%; background: var(--accent-dim); color: var(--accent); font-size: 12px; font-weight: 700; }
+.pick { margin: 12px 0 8px; color: var(--accent); font-weight: 600; font-size: 14px; }
+.tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 12px; }
+.tool { padding: 14px; border-radius: 12px; background: var(--surface-2); border-top: 3px solid var(--accent); }
+.tool-claude { border-top-color: var(--warn); }
+.tool h4 { margin: 4px 0; font-size: 17px; }
+.tool pre { margin: 10px 0; padding: 10px 12px; border-radius: 8px; background: var(--bg); font: 12.5px/1.5 ui-monospace, "Cascadia Mono", Consolas, monospace; white-space: pre-wrap; overflow-wrap: anywhere; }
+.practice { margin: 14px 0; border-top: 1px solid var(--line); padding-top: 10px; }
+.practice summary { cursor: pointer; color: var(--accent); font-weight: 600; font-size: 14px; }
+.path-compact { margin-top: 12px; }
+.path-compact h3 { font-size: 16px; margin: 0; }
+.path-compact .tools { grid-template-columns: minmax(0, 1fr); }
+.prose { max-width: 78ch; }
+.prose h3 { margin: 22px 0 4px; }
+.prose p, .prose li { color: #c5d0e4; }
+
 .empty { padding: 28px 18px; text-align: center; color: var(--muted); }
 .error { padding: 18px; border: 1px solid var(--bad); border-radius: var(--radius); background: rgba(248, 113, 113, .08); }
 

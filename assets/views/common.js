@@ -1,5 +1,6 @@
 // HTML fragments shared by several tabs. Every dynamic string goes through esc().
 import { esc, fmt, fmtX } from "../logic.js";
+import { PATHS, pathBlock } from "./prompts.js";
 
 export const METRICS = [
   { key: "growth7", label: "Рост за 7 дней", short: "звёзд за 7 дней", hint: "Сколько звёзд проект набрал за последние 7 дней." },
@@ -88,6 +89,10 @@ export function detailCard(p, date, { eyebrow, task } = {}) {
       <div class="stat"><small>Ускорение ${hint(METRICS[3].hint)}</small><b>${fmtX(p.acceleration)}</b></div>
       <div class="stat"><small>Активных дней из 30</small><b>${p.active_days}</b></div>
     </div>
+    <details class="practice"><summary>Практика из тренда: что забрать из ${esc(p.repo)}</summary>
+      ${PATHS.map((path) => pathBlock(path, p.repo, { compact: true })).join("")}
+      <p class="muted small">Перед запуском проверьте README, лицензию, релизы и реальную задачу своей аудитории.</p>
+    </details>
     ${safeUrl ? `<a class="btn" href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer">Открыть на GitHub ↗</a>` : ""}
   </aside>`;
 }

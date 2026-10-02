@@ -3,6 +3,8 @@ import { hint, selectOptions } from "./views/common.js";
 import { renderRating } from "./views/rating.js";
 import { renderVertical } from "./views/vertical.js";
 import { renderSegments } from "./views/segments.js";
+import { renderPractice } from "./views/practice.js";
+import { renderMethodology } from "./views/methodology.js";
 
 const TABS = [
   ["practice", "Практика: скилл или проект"],
@@ -11,7 +13,10 @@ const TABS = [
   ["segments", "Сегменты и динамика"],
 ];
 const METHOD_TAB = ["method", "Методология"];
-const VIEWS = { rating: renderRating, vertical: renderVertical, segments: renderSegments };
+const VIEWS = {
+  practice: renderPractice, rating: renderRating, vertical: renderVertical, segments: renderSegments,
+  method: renderMethodology,
+};
 const SHARED_FILTERS = ["category", "status", "language", "query"];
 const CATEGORY_ORDER = [
   "Оркестрация агентов", "Навыки и методологии", "Контент и дизайн", "Экономия и контекст",
@@ -129,7 +134,36 @@ function resetFilters() {
   sync();
 }
 
+function legacyCopy(text) {
+  const area = document.createElement("textarea");
+  area.value = text;
+  area.style.position = "fixed";
+  area.style.opacity = "0";
+  document.body.append(area);
+  area.select();
+  try {
+    return document.execCommand("copy");
+  } catch {
+    return false;
+  } finally {
+    area.remove();
+  }
+}
+
+async function copyPrompt(button) {
+  let ok = true;
+  try {
+    await navigator.clipboard.writeText(button.dataset.copy);
+  } catch {
+    ok = legacyCopy(button.dataset.copy);
+  }
+  button.textContent = ok ? "Скопировано" : "Не удалось скопировать";
+  setTimeout(() => { button.textContent = "Скопировать"; }, 1600);
+}
+
 document.addEventListener("click", (event) => {
+  const copy = event.target.closest("[data-copy]");
+  if (copy) return copyPrompt(copy);
   const setter = event.target.closest("[data-set-key]");
   if (setter) return set(setter.dataset.setKey, setter.dataset.setValue);
   if (event.target.closest('[data-action="reset"]')) resetFilters();
