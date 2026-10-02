@@ -11,6 +11,39 @@ export function fmt(n) {
   return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
+export function plural(n, [one, few, many]) {
+  const last = n % 10;
+  const lastTwo = n % 100;
+  if (last === 1 && lastTwo !== 11) return one;
+  if (last >= 2 && last <= 4 && (lastTwo < 12 || lastTwo > 14)) return few;
+  return many;
+}
+
+export function fmtX(n) {
+  return n == null ? "н/д" : n.toFixed(1).replace(".", ",") + "×";
+}
+
+export function fmtDate(iso) {
+  const [y, m, d] = iso.split("-");
+  return `${d}.${m}.${y}`;
+}
+
+// Shareable URL state: only keys present in `defaults` are read or written.
+export function parseState(hash, defaults) {
+  const params = new URLSearchParams(hash.replace(/^#/, ""));
+  const state = {};
+  for (const key of Object.keys(defaults)) state[key] = params.get(key) ?? defaults[key];
+  return state;
+}
+
+export function serializeState(state, defaults) {
+  const params = new URLSearchParams();
+  for (const key of Object.keys(defaults)) {
+    if (state[key] !== defaults[key]) params.set(key, state[key]);
+  }
+  return params.toString();
+}
+
 export function filterProjects(projects, { category = "", status = "", language = "", query = "" } = {}) {
   const q = query.trim().toLowerCase();
   return projects.filter(

@@ -1,6 +1,14 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { esc, filterProjects, rankBy, segments, weeklyTotals, fmt } from "../assets/logic.js";
+import {
+  esc, filterProjects, rankBy, segments, weeklyTotals, fmt, fmtX, fmtDate, parseState, serializeState, plural,
+} from "../assets/logic.js";
+
+test("plural picks the Russian noun form", () => {
+  const forms = ["проект", "проекта", "проектов"];
+  assert.deepEqual([1, 2, 5, 11, 12, 21, 22, 25, 0].map((n) => plural(n, forms)),
+    ["проект", "проекта", "проектов", "проектов", "проектов", "проект", "проекта", "проектов", "проектов"]);
+});
 
 const p = (over) => ({
   repo: "a/x", category: "Прочее", status: "ускоряется", language: "Python",
@@ -74,4 +82,29 @@ test("fmt groups thousands with a non-breaking space and shows н/д for null", 
   assert.equal(fmt(999), "999");
   assert.equal(fmt(-1234567), "-1 234 567");
   assert.equal(fmt(null), "н/д");
+});
+
+test("fmtX shows acceleration with a decimal comma and н/д for null", () => {
+  assert.equal(fmtX(10.8), "10,8×");
+  assert.equal(fmtX(3), "3,0×");
+  assert.equal(fmtX(null), "н/д");
+});
+
+test("fmtDate turns an ISO date into DD.MM.YYYY", () => {
+  assert.equal(fmtDate("2026-09-27"), "27.09.2026");
+});
+
+test("parseState reads known keys from a hash, falls back to defaults, ignores unknown keys", () => {
+  const defaults = { tab: "rating", date: "", query: "" };
+  assert.deepEqual(parseState("#tab=segments&query=voice+ai&evil=1", defaults), {
+    tab: "segments", date: "", query: "voice ai",
+  });
+  assert.deepEqual(parseState("", defaults), defaults);
+});
+
+test("serializeState omits default values and round-trips with parseState", () => {
+  const defaults = { tab: "rating", date: "", query: "" };
+  const state = { tab: "vertical", date: "2026-09-27", query: "a&b=c" };
+  assert.equal(serializeState({ ...defaults }, defaults), "");
+  assert.deepEqual(parseState("#" + serializeState(state, defaults), defaults), state);
 });
