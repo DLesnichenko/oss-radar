@@ -1,4 +1,4 @@
-import { esc, fmtDate, filterProjects, parseState, serializeState } from "./logic.js";
+import { esc, fmtDate, filterProjects, parseState, serializeState, validFilters } from "./logic.js";
 import { hint, selectOptions } from "./views/common.js";
 import { renderRating } from "./views/rating.js";
 import { renderVertical } from "./views/vertical.js";
@@ -52,7 +52,7 @@ async function load() {
 function normalise(s) {
   if (!data.by_date[s.date]) s.date = data.dates[0];
   if (![...TABS, METHOD_TAB].some(([id]) => id === s.tab)) s.tab = defaults.tab;
-  return s;
+  return Object.assign(s, validFilters(s, data.by_date[s.date].projects));
 }
 
 function entry() {
@@ -116,6 +116,7 @@ function set(key, value) {
   state[key] = value;
   if (key === "date") {
     state.selected = "";
+    Object.assign(state, validFilters(state, entry().projects));
     renderFilters();
   }
   sync();

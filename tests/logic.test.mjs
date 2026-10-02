@@ -2,8 +2,33 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   esc, filterProjects, rankBy, segments, weeklyTotals, fmt, fmtX, fmtDate, parseState, serializeState, plural,
-  verticalKpis, chartPoints, splitRuns, fillPrompt, effectiveMetric,
+  verticalKpis, chartPoints, splitRuns, fillPrompt, effectiveMetric, validFilters,
 } from "../assets/logic.js";
+
+test("segment sums are null when fewer than half of the segment's projects have data", () => {
+  const list = [p({ category: "A", growth30: 500, growth90: 9 }), ...Array.from({ length: 9 }, () => p({ category: "A", growth30: null, growth90: null }))];
+  const [row] = segments(list);
+  assert.equal(row.growth30, null);
+  assert.equal(row.growth90, null);
+  assert.equal(row.count, 10);
+});
+
+test("verticalKpis 30-day growth is null when fewer than half of the projects have data", () => {
+  const list = [p({ industry: "Финансы", growth30: 500 }), ...Array.from({ length: 9 }, () => p({ industry: "Финансы", growth30: null }))];
+  assert.equal(verticalKpis(list).growth30, null);
+});
+
+test("validFilters clears filter values that no project on this date has, keeps the rest", () => {
+  const list = [
+    p({ category: "A", status: "ускоряется", language: "Go", industry: null }),
+    p({ category: "B", status: "ускоряется", language: "Rust", industry: "Финансы" }),
+  ];
+  const filters = { category: "A", status: "замедляется", language: "Python", query: "x", industry: "Кибербезопасность", tab: "rating" };
+  assert.deepEqual(validFilters(filters, list), {
+    category: "A", status: "", language: "", query: "x", industry: "", tab: "rating",
+  });
+  assert.deepEqual(validFilters({ category: "", language: "Go" }, list), { category: "", language: "Go" });
+});
 
 test("weeklyTotals is null when fewer than half of the projects have data for that week", () => {
   const list = [p({ weekly: [0] }), p({ weekly: [null] }), p({ weekly: [null] })];

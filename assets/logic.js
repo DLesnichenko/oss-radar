@@ -68,9 +68,13 @@ export function rankBy(projects, metric) {
   });
 }
 
-function sumKnown(values) {
+// A total is shown only when at least half of the values are known: a sum over a few
+// known projects would pass off partial data as the total for the whole group.
+function sumCovered(values) {
   const known = values.filter((v) => v != null);
-  return known.length ? known.reduce((a, b) => a + b, 0) : null;
+  return known.length && known.length >= Math.ceil(values.length / 2)
+    ? known.reduce((a, b) => a + b, 0)
+    : null;
 }
 
 export function segments(projects, key = "category") {
@@ -85,8 +89,8 @@ export function segments(projects, key = "category") {
     return {
       name,
       count: items.length,
-      growth30: sumKnown(items.map((p) => p.growth30)),
-      growth90: sumKnown(items.map((p) => p.growth90)),
+      growth30: sumCovered(items.map((p) => p.growth30)),
+      growth90: sumCovered(items.map((p) => p.growth90)),
       avgAcceleration: accel.length ? accel.reduce((a, b) => a + b, 0) / accel.length : null,
     };
   });
@@ -99,7 +103,7 @@ export function verticalKpis(projects) {
   return {
     count: projects.length,
     industries: new Set(projects.map((p) => p.industry).filter(Boolean)).size,
-    growth30: sumKnown(projects.map((p) => p.growth30)),
+    growth30: sumCovered(projects.map((p) => p.growth30)),
     leader,
   };
 }
@@ -135,14 +139,21 @@ export function splitRuns(points) {
   return runs;
 }
 
-// A week's total is shown only when at least half of the projects have data for it;
-// a sum over a few known projects would pass off partial data as the market total.
 export function weeklyTotals(projects, weeks) {
-  const needed = Math.ceil(projects.length / 2);
-  return weeks.map((week, i) => {
-    const known = projects.map((p) => (p.weekly || [])[i] ?? null).filter((v) => v != null);
-    return { week, gain: known.length && known.length >= needed ? sumKnown(known) : null };
-  });
+  return weeks.map((week, i) => ({
+    week,
+    gain: sumCovered(projects.map((p) => (p.weekly || [])[i] ?? null)),
+  }));
+}
+
+// Clears filter values that no project on the current date has, so a select can never
+// show "Все …" while an invisible filter is still applied (e.g. after switching the date).
+export function validFilters(filters, projects) {
+  const result = { ...filters };
+  for (const key of ["category", "status", "language", "industry"]) {
+    if (result[key] && !projects.some((p) => p[key] === result[key])) result[key] = "";
+  }
+  return result;
 }
 
 // On day one no project has growth figures yet; rank by total stars instead of a wall of "н/д".
