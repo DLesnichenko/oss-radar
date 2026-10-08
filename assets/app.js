@@ -82,7 +82,7 @@ function renderFilters() {
   const projects = entry().projects;
   const present = new Set(projects.map((p) => p.category));
   const categories = CATEGORY_ORDER.filter((c) => present.has(c));
-  const statuses = STATUS_ORDER.filter((s) => projects.some((p) => p.status === s));
+  const statuses = STATUS_ORDER;
   const languages = [...new Set(projects.map((p) => p.language).filter(Boolean))].sort();
   const all = (label) => ["", label];
   const field = (label, control, tip) =>
