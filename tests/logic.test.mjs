@@ -4,6 +4,7 @@ import {
   esc, filterProjects, rankBy, segments, weeklyTotals, fmt, fmtX, fmtDate, parseState, serializeState, plural,
   verticalKpis, chartPoints, splitRuns, fillPrompt, effectiveMetric, validFilters,
 } from "../assets/logic.js";
+import { detailCard } from "../assets/views/common.js";
 
 test("segment sums are null when fewer than half of the segment's projects have data", () => {
   const list = [p({ category: "A", growth30: 500, growth90: 9 }), ...Array.from({ length: 9 }, () => p({ category: "A", growth30: null, growth90: null }))];
@@ -99,6 +100,17 @@ test("plural picks the Russian noun form", () => {
 const p = (over) => ({
   repo: "a/x", category: "Прочее", status: "ускоряется", language: "Python",
   purpose: "", stars: 1, growth7: 1, growth30: 1, growth90: 1, acceleration: 1, weekly: [], ...over,
+});
+
+test("detailCard shows both practice paths with Claude and Codex prompts for the project", () => {
+  const html = detailCard(p({ repo: "a/Voice", category: "Контент и дизайн", active_days: 3, first_seen: "2026-10-01" }), "2026-10-02");
+  assert.ok(html.includes("Что забрать из a/Voice"));
+  assert.ok(!html.includes("<details"), "practice block is always visible");
+  assert.ok(html.includes("Забрать скилл") && html.includes("Освоить проект"));
+  assert.ok(html.includes("из подхода «Контент и дизайн»"), "path 1 names the project's category");
+  assert.ok(html.includes("Если a/Voice решает твою задачу целиком"), "path 2 names the project");
+  assert.equal(html.match(/data-copy="/g).length, 4, "two tools per path, each with a copy button");
+  assert.ok(html.includes("Я изучаю a/Voice."));
 });
 
 test("esc escapes html special characters and tolerates null", () => {

@@ -95,7 +95,7 @@ select option { background: var(--surface); }
 .bar i { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, #0ea5b7, var(--accent)); }
 .val { font-weight: 700; white-space: nowrap; text-align: right; }
 
-.detail { position: sticky; top: 12px; }
+.detail { position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow-y: auto; }
 .detail h2 { margin: 6px 0 8px; font-size: 22px; overflow-wrap: anywhere; }
 .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; border: 1px solid currentColor; }
 .badge.s-up { color: var(--good); }
@@ -162,11 +162,13 @@ tbody tr:last-child td { border-bottom: 0; }
 .tool-claude { border-top-color: var(--warn); }
 .tool h4 { margin: 4px 0; font-size: 17px; }
 .tool pre { margin: 10px 0; padding: 10px 12px; border-radius: 8px; background: var(--bg); font: 12.5px/1.5 ui-monospace, "Cascadia Mono", Consolas, monospace; white-space: pre-wrap; overflow-wrap: anywhere; }
-.practice { margin: 14px 0; border-top: 1px solid var(--line); padding-top: 10px; }
-.practice summary { cursor: pointer; color: var(--accent); font-weight: 600; font-size: 14px; }
-.path-compact { margin-top: 12px; }
-.path-compact h3 { font-size: 16px; margin: 0; }
+.practice { margin: 16px 0; padding: 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-2); }
+.practice > h3 { margin: 4px 0; font-size: 16px; overflow-wrap: anywhere; }
+.path-compact { margin-top: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.path-compact h4 { margin: 2px 0 4px; font-size: 16px; }
 .path-compact .tools { grid-template-columns: minmax(0, 1fr); }
+.path-compact .tool { border-top: 0; border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; }
+.path-compact .tool-claude { border-left-color: var(--warn); }
 .prose { max-width: 78ch; }
 .prose h3 { margin: 22px 0 4px; }
 .prose p, .prose li { color: #c5d0e4; }
@@ -176,7 +178,7 @@ tbody tr:last-child td { border-bottom: 0; }
 
 @media (max-width: 900px) {
   .split { grid-template-columns: minmax(0, 1fr); }
-  .detail { position: static; }
+  .detail { position: static; max-height: none; overflow: visible; }
 }
 @media (max-width: 560px) {
   .row { grid-template-columns: 22px minmax(0, 1fr) auto; }

@@ -95,10 +95,12 @@ export function detailCard(p, date, { eyebrow, task } = {}) {
       <div class="stat"><small>Ускорение ${hint(METRICS[3].hint)}</small><b>${fmtX(p.acceleration)}</b></div>
       <div class="stat"><small>Активных дней из 30</small><b>${p.active_days}</b></div>
     </div>
-    <details class="practice"><summary>Практика из тренда: что забрать из ${esc(p.repo)}</summary>
-      ${PATHS.map((path) => pathBlock(path, p.repo, { compact: true })).join("")}
-      <p class="muted small">Перед запуском проверьте README, лицензию, релизы и реальную задачу своей аудитории.</p>
-    </details>
+    <section class="practice">
+      <p class="eyebrow-s">Практика из тренда</p>
+      <h3>Что забрать из ${esc(p.repo)}</h3>
+      ${PATHS.map((path) => pathBlock(path, p.repo, { compact: true, category: p.category })).join("")}
+      <p class="muted small">Перед запуском проверь README, лицензию, релизы и реальную задачу своей аудитории.</p>
+    </section>
     ${safeUrl ? `<a class="btn" href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer">Открыть на GitHub ↗</a>` : ""}
   </aside>`;
 }
